@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.loginproject.LoggedInController">
+    <Label fx:id="label_welcome" alignment="CENTER" layoutX="213.0" layoutY="152.0" text="Welcome John Doe!" textAlignment="CENTER">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+        </font>
+    </Label>
+    <Button fx:id="btn_logout" layoutX="242.0" layoutY="254.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="117.0" style="-fx-background-color: FDB713;" text="Logout">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+        </font>
+    </Button>
+
+</AnchorPane>
